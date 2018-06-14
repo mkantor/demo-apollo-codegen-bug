@@ -1,0 +1,10 @@
+interface IFoo {
+  foo: String
+}
+interface IBar {
+  bar: String
+}
+type FooBar implements IFoo, IBar {
+  foo: String
+  bar: String
+}
